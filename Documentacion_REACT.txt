@@ -1,0 +1,37 @@
+npm create vite@latest
+Repositorio github
+
+iniciar repositorio inicial local:
+git init
+
+cambiar la rama de master a main
+git branch -M main
+
+eliminar credenciales 
+windows + s
+buscar: Administrador de credenciales
+y luego buscarla s credenciales de github asociadas las eliminas 
+
+configuras tu usuario local de git:
+git config user.name "tu email"
+git config user.email "tu correo de git"
+
+ahora agregamos todos los archivoss de proyecto
+
+realizamos un commit descriptivo de la version a subir:
+git commit -m "la descripcion"
+
+copeamos las dos ultimas lineas del repositorio main se vera como esto:
+ejemplo:
+ git remote add origin https://github.com/anderson0101ec/react_curso.git
+git push -u origin main
+
+ACTUALIZACION
+miramos las modificaciones con:
+git push
+
+comandos para la actualizacionen el repositorio
+git add . 
+git commit -m "comentario"
+git push
+
