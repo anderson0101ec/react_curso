@@ -31,7 +31,14 @@ miramos las modificaciones con:
 git push
 
 comandos para la actualizacionen el repositorio
+git status
 git add . 
 git commit -m "comentario"
 git push
+
+
+proyecto react 
+ en el cmd  ponemos el comando:
+npm create vite@latest
+
 
